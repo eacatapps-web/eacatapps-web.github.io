@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Koridor — Test et</title>
+<meta name="description" content="Radar Koridor Android uygulamasının kapalı testine katıl: 3 adım, 1 dakika.">
+<style>
+  :root { --bg:#141a2e; --card:#1d2440; --fg:#e8ebf3; --muted:#a3abc0; --accent:#ff5252; --accent2:#ff8a65; --ok:#2e7d32; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:560px; margin:0 auto; padding:28px 16px 48px; }
+  header { text-align:center; margin-bottom:22px; }
+  header svg { width:76px; height:76px; }
+  h1 { font-size:1.6rem; margin:10px 0 4px; }
+  .sub { color:var(--accent2); margin:0; }
+  .step { background:var(--card); border-radius:16px; padding:18px; margin:14px 0; display:flex; gap:14px; align-items:flex-start; }
+  .num { flex:none; width:34px; height:34px; border-radius:50%; background:var(--accent); color:#fff; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .step h2 { font-size:1.08rem; margin:2px 0 6px; }
+  .step p { margin:0 0 12px; color:var(--muted); font-size:.95rem; }
+  a.btn { display:inline-block; background:#fff; color:#141a2e; font-weight:700; text-decoration:none; padding:11px 18px; border-radius:999px; }
+  a.btn:active { transform:scale(.98); }
+  .note { background:rgba(255,138,101,.12); border:1px solid rgba(255,138,101,.35); border-radius:14px; padding:14px 16px; margin-top:20px; font-size:.95rem; }
+  .note b { color:var(--accent2); }
+  footer { margin-top:26px; text-align:center; color:var(--muted); font-size:.85rem; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <svg viewBox="0 0 108 108" aria-hidden="true">
+      <rect width="108" height="108" rx="24" fill="#1d2440"/>
+      <path d="M34.2,42.2 A28,28 0 0,1 73.8,42.2" stroke="#FF5252" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <path d="M39.86,47.86 A20,20 0 0,1 68.14,47.86" stroke="#FF8A65" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+      <path d="M54,47 L67,77 L54,69.5 L41,77 Z" fill="#fff"/>
+    </svg>
+    <h1>Radar Koridor'u test et</h1>
+    <p class="sub">Sabit radar uyarısı ve hız koridoru takibi · Android · ücretsiz</p>
+  </header>
+
+  <section class="step">
+    <div class="num">1</div>
+    <div>
+      <h2>Test grubuna katıl</h2>
+      <p>Play Store'da kullandığın Google hesabınla "Gruba katıl"a bas. Seni test listesine bu ekler.</p>
+      <a class="btn" href="https://groups.google.com/g/radar-koridor-test" target="_blank" rel="noopener">Gruba katıl</a>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="num">2</div>
+    <div>
+      <h2>Test kullanıcısı ol</h2>
+      <p>Açılan Google Play sayfasında "Test kullanıcısı ol"a bas. Gruba yeni katıldıysan birkaç dakika sürebilir.</p>
+      <a class="btn" href="https://play.google.com/apps/testing/com.eacatapps.radar" target="_blank" rel="noopener">Test kullanıcısı ol</a>
+    </div>
+  </section>
+
+  <section class="step">
+    <div class="num">3</div>
+    <div>
+      <h2>Uygulamayı yükle</h2>
+      <p>Play Store'dan "Radar Koridor"u yükle, açılıştaki kurulumu tamamla ve "Algılamayı başlat"a bas.</p>
+      <a class="btn" href="https://play.google.com/store/apps/details?id=com.eacatapps.radar" target="_blank" rel="noopener">Play Store'da aç</a>
+    </div>
+  </section>
+
+  <div class="note">
+    <b>Bir ricam var:</b> Google'ın kuralı gereği uygulamanın <b>14 gün</b> telefonunda kalması gerekiyor. Arada araba kullanırken açık olsun yeter. Gördüğün bir hatayı ya da eksik radarı <a href="mailto:eacatapps@gmail.com" style="color:var(--fg)">eacatapps@gmail.com</a> adresine yazarsan çok sevinirim. Teşekkürler!
+  </div>
+
+  <footer>
+    Radar Koridor resmî bir uygulama değildir · <a href="radar-koridor-privacy.html">Gizlilik politikası</a>
+  </footer>
+</main>
+</body>
+</html>
