@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar Koridor — Gizlilik Politikası</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1b1f2a; --muted:#5b6475; --accent:#d93636; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141a2e; --fg:#e8ebf3; --muted:#a3abc0; --accent:#ff6b6b; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.7rem; margin-bottom:4px; }
+  h2 { font-size:1.15rem; margin-top:2rem; color:var(--accent); }
+  .muted { color:var(--muted); font-size:.9rem; }
+  td, th { text-align:left; vertical-align:top; padding:6px 10px 6px 0; border-bottom:1px solid rgba(127,127,127,.25); }
+  table { border-collapse:collapse; width:100%; font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+<h1>Radar Koridor — Gizlilik Politikası</h1>
+<p class="muted">Son güncelleme: 13 Ekim 2026 · Geliştirici: eacatapps · İletişim: <a href="mailto:eacatapps@gmail.com">eacatapps@gmail.com</a></p>
+
+<p>Bu politika, Radar Koridor Android uygulamasının ("Uygulama") hangi verileri nasıl işlediğini açıklar. 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) kapsamında veri sorumlusu, yukarıda belirtilen geliştiricidir.</p>
+
+<h2>Kısaca</h2>
+<ul>
+  <li>Hesap yok, kayıt yok, reklam yok, analitik veya izleme aracı yok. İsteğe bağlı tek seferlik Pro satın alımı Google Play üzerinden yapılır.</li>
+  <li>Konumunuz <strong>yalnızca telefonunuzda</strong> işlenir; bizim bir sunucumuz yoktur ve konumunuzu saklamayız ya da kimseyle paylaşmayız.</li>
+  <li>Konum yalnızca sürüş algılandığında kullanılır.</li>
+</ul>
+
+<h2>İşlenen veriler ve amaçları</h2>
+<table>
+  <tr><th>Veri</th><th>Amaç</th><th>Nerede</th></tr>
+  <tr><td>Hassas konum (GPS), hız ve yön</td><td>Önünüzdeki radar ve hız koridorlarını bulmak, uyarı vermek, koridor ortalama hızını hesaplamak</td><td>Yalnızca cihazda; kaydedilmez, gönderilmez</td></tr>
+  <tr><td>Arka planda konum</td><td>Uygulama kapalıyken veya ekran kilitliyken sürüş sırasında uyarı verebilmek</td><td>Yalnızca cihazda</td></tr>
+  <tr><td>Fiziksel aktivite (araçta / yürüyor / duruyor)</td><td>Sürüşü otomatik algılayıp konum takibini yalnızca sürüş sırasında açmak, pili korumak</td><td>Cihazda; son geçişler cihazdaki kayıt ekranında tutulur</td></tr>
+</table>
+
+<h2>Üçüncü taraf hizmetlere giden istekler</h2>
+<p>Uygulama, çalışmak için aşağıdaki herkese açık hizmetlere internet üzerinden bağlanır. Bu isteklerde sizi tanımlayan bir bilgi (ad, e-posta, cihaz kimliği) gönderilmez; ancak her internet isteğinde olduğu gibi IP adresiniz ilgili sunucuya ulaşır.</p>
+<ul>
+  <li><strong>OpenStreetMap Overpass API</strong> — Türkiye geneli sabit radar listesi (haftada bir). İstekte konumunuz yoktur.</li>
+  <li><strong>OpenFreeMap</strong> — harita görüntüleri. Haritada baktığınız bölgenin harita parçaları istenir.</li>
+  <li><strong>T.C. İçişleri Bakanlığı kamuya açık radar haritası (icisleri.gov.tr)</strong> — sürüş sırasında en fazla 30 dakikada bir, önünüzdeki güzergâhın hız koridorları ve radarlı denetim sayısı. İstekte konumunuzun kendisi değil, en yakın ilçe merkezinin ve yaklaşık 100 km ilerideki bir ilçe merkezinin koordinatları gönderilir.</li>
+  <li><strong>Geliştiricinin statik sayfası (GitHub Pages)</strong> — haftada bir güncel hız cezası tablosu (fines.json). İstekte konum veya kişisel veri yoktur.</li>
+  <li><strong>Google Play Faturalandırma</strong> — Pro satın alımı tamamen Google Play üzerinden yapılır; ödeme bilgilerinizi biz görmeyiz. Uygulama yalnızca Pro satın alınıp alınmadığını Google Play'den sorgular.</li>
+  <li><strong>Google Play hizmetleri</strong> — konum ve aktivite tanıma, Android'in kendi hizmetleri üzerinden sağlanır; Google'ın gizlilik politikasına tabidir.</li>
+</ul>
+
+<h2>Saklama ve silme</h2>
+<p>Konum geçmişi tutulmaz. Cihazda yalnızca radar/koridor veritabanı ve son hareket geçişleri (ör. "araçta 08:45") saklanır. Uygulamayı kaldırdığınızda veya Android ayarlarından uygulama verilerini temizlediğinizde tüm veriler silinir.</p>
+
+<h2>İzinler</h2>
+<p>Konum ("Her zaman izin ver"), fiziksel aktivite ve bildirim izinleri yalnızca yukarıdaki amaçlar için istenir. İzinleri dilediğiniz zaman Android Ayarlar → Uygulamalar → Radar Koridor bölümünden geri alabilirsiniz; bu durumda uyarılar çalışmaz.</p>
+
+<h2>Çocuklar</h2>
+<p>Uygulama sürücülere yöneliktir ve 18 yaş altına yönelik değildir.</p>
+
+<h2>Haklarınız (KVKK md. 11)</h2>
+<p>Kişisel verilerinizin işlenip işlenmediğini öğrenme, düzeltilmesini veya silinmesini isteme gibi haklarınız için yukarıdaki e-posta adresinden bize ulaşabilirsiniz. Sunucumuzda sizinle ilgili veri bulunmadığından, cihazdaki verileri uygulamayı kaldırarak kendiniz silebilirsiniz.</p>
+
+<h2>Resmî olmama beyanı</h2>
+<p>Radar Koridor resmî bir uygulama değildir; İçişleri Bakanlığı, Emniyet Genel Müdürlüğü veya herhangi bir kamu kurumuyla bağlantısı yoktur. Gösterilen veriler eksik veya güncel olmayabilir. Her zaman trafik işaretlerine ve hız sınırlarına uyun.</p>
+
+<h2>Değişiklikler</h2>
+<p>Bu politika güncellenirse yeni sürüm bu sayfada yayımlanır ve üstteki tarih değişir.</p>
+</main>
+</body>
+</html>

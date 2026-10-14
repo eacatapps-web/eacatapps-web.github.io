@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "source": "KTK md. 51 — 7574 sayılı Kanun, Resmî Gazete 27.02.2026 sayı 33181",
+  "effectiveDate": "27.02.2026",
+  "tiers": [
+    {
+      "insideFrom": 6,
+      "outsideFrom": 11,
+      "tl": 2000
+    },
+    {
+      "insideFrom": 11,
+      "outsideFrom": 16,
+      "tl": 4000
+    },
+    {
+      "insideFrom": 16,
+      "outsideFrom": 21,
+      "tl": 6000
+    },
+    {
+      "insideFrom": 21,
+      "outsideFrom": 26,
+      "tl": 8000
+    },
+    {
+      "insideFrom": 26,
+      "outsideFrom": 31,
+      "tl": 12000
+    },
+    {
+      "insideFrom": 36,
+      "outsideFrom": 41,
+      "tl": 15000
+    },
+    {
+      "insideFrom": 46,
+      "outsideFrom": 51,
+      "tl": 20000
+    },
+    {
+      "insideFrom": 56,
+      "outsideFrom": 61,
+      "tl": 25000
+    },
+    {
+      "insideFrom": 66,
+      "outsideFrom": 71,
+      "tl": 30000
+    }
+  ]
+}
